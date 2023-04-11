@@ -7,21 +7,49 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "YOUR COLLECTION NAME";
-const description = "Remember to replace this description";
+const namePrefix = "CASTmyNFT.io - Genesis Member Card";
+const description = "CASTmyNFT.io - Give your NFTs that magical moment - Genesis Member Card";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Gold Level" },
+      { name: "Gold Star" },
+      { name: "Gold Number 1" },
+      { name: "Gold Number 2" },
+      { name: "Gold Number 3" },
+      { name: "Gold Card 1" },
+      { name: "Gold Card 2" },
+      { name: "Gold Card 3" },
+      { name: "Gold Card 4" },
+    ],
+  },{
+    growEditionSizeTo: 15,
+    layersOrder: [
+      { name: "Silver Level" },
+      { name: "Silver Star" },
+      { name: "Silver Number 1" },
+      { name: "Silver Number 2" },
+      { name: "Silver Number 3" },
+      { name: "Silver Card 1" },
+      { name: "Silver Card 2" },
+      { name: "Silver Card 3" },
+      { name: "Silver Card 4" },
+    ],
+  },{
+    growEditionSizeTo: 25,
+    layersOrder: [
+      { name: "Bronze Level" },
+      { name: "Bronze Star" },
+      { name: "Bronze Number 1" },
+      { name: "Bronze Number 2" },
+      { name: "Bronze Number 3" },
+      { name: "Bronze Card 1" },
+      { name: "Bronze Card 2" },
+      { name: "Bronze Card 3" },
+      { name: "Bronze Card 4" },
     ],
   },
 ];
@@ -31,13 +59,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2688,
+  height: 1619,
   smoothing: false,
 };
 
 const extraMetadata = {
-  external_url: "https://codecats.xyz", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://castmynft.io", // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
