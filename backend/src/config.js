@@ -8,7 +8,7 @@ const network = NETWORK.eth;
 
 // General metadata for Ethereum
 const namePrefix = "CASTmyNFT.io - Genesis Member Card";
-const description = "CASTmyNFT.io - Give your NFTs that magical moment - Genesis Member Card";
+const description = "CASTmyNFT.io - Genesis Member Card grants you access to our exclusive membership area on the CASTmyNFT.io platform where you can cast your NFTs in 3D Galleries and give them that magical moment. From the CASTmyNFT.io Genesis Member Card exclusive membership area you can access all rewards granted, for life. As an exclusive member you can actively participate in future CASTmyNFT.io platform development and enjoy even more dedicated rewards. Enjoy your membership at CASTmyNFT.io";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
