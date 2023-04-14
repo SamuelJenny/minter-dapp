@@ -13,7 +13,7 @@ const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 3176,
     layersOrder: [
       { name: "Gold Level" },
       { name: "Gold Star" },
@@ -26,7 +26,7 @@ const layerConfigurations = [
       { name: "Gold Card 4" },
     ],
   },{
-    growEditionSizeTo: 15,
+    growEditionSizeTo: 6833,
     layersOrder: [
       { name: "Silver Level" },
       { name: "Silver Star" },
@@ -39,7 +39,7 @@ const layerConfigurations = [
       { name: "Silver Card 4" },
     ],
   },{
-    growEditionSizeTo: 25,
+    growEditionSizeTo: 10101,
     layersOrder: [
       { name: "Bronze Level" },
       { name: "Bronze Star" },
