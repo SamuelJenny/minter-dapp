@@ -1,9 +1,9 @@
 const contractAddress = "0xbaa4E9a83135f35FAea1EB916f0998dAC046dcfa"; // Replace with your own contract address
 const chain = 'polygon'; // goerli, polygon, or ethereum
 
-const welcome_h1 = "";
-const welcome_h2 = "";
-const welcome_p = '';
+const welcome_h1 = "Welcome to the CASTmyNFT Genesis Meber Card Minting Platform!!";
+const welcome_h2 = "Connect to MetaMask to Get Started";
+const welcome_p = 'The CASTmyNFT Genesis Meber Card Minting Platform is a decentralized.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
