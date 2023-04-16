@@ -3,8 +3,8 @@ const chain = 'polygon'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "CASTmyNFT<br>Genesis Member Card";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-/*const welcome_p = 'The CASTmyNFT Genesis Member Card Minting Platform is open.';
-const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
+const welcome_p = 'Visit CASTmyNFT.club website to learn more about CASTmyNFT Genesis Member Card';
+/*const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";*/
 const h1_public_mint = "Public Minting Open!!";
 const h2_presale_coming_soon = "Pre-Sale Minting Countdown";
