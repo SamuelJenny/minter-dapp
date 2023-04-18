@@ -93,7 +93,7 @@ header .container {
 
 .not-connected a {
   text-decoration: none;
-  color: var(--accent-color);
+  color: var(--btn-bg-color);
   font-size: 1.5rem;
   font-weight: bold;
 }
