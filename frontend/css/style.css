@@ -12,7 +12,8 @@
   --bg-color-transparent: #0b1a4180;
   --font-color: #ffffff;
   --btn-bg-color: #00ffa3;
-  --accent-color: #fe9a03;
+  --accent-color: #000000;
+  --accent-total: #fe9a03;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -287,7 +288,7 @@ section {
 }
 
 .total-price-container p {
-  color: var(--accent-color);
+  color: var(--accent-total);
 }
 
 /* MINTED CONTAINER */
